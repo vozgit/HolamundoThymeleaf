@@ -16,7 +16,7 @@ public class Persona {
     private String apellido;
     private String email;
     private String telefono;
-
+    private String NIT;
    
     
 }
