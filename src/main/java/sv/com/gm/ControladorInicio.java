@@ -27,9 +27,9 @@ public class ControladorInicio {
     public String inicio(Model model){
         String saludar = "Hola mundo con thymeleaf 3";
         Persona persona = new Persona();
-        persona.setNombre("Juan");
-        persona.setApellido("Flores");
-        persona.setEmail("juan.flores@com");
+        persona.setNombre("nombre1");
+        persona.setApellido("apellido1");
+        persona.setEmail("nombre.apellido@com");
         persona.setTelefono("77777777");
         
         Persona persona1 = new Persona();
